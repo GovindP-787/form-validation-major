@@ -1,0 +1,110 @@
+/* Reset default margin and padding */
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+
+/* Body styling */
+body {
+    min-height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    backdrop-filter: blur(3px);
+
+
+
+
+
+
+    padding: 20px !important;
+}
+
+/* Container styling */
+.container {
+    position: relative !important;
+    background-color: rgba(255, 255, 255, 0.5) !important;  /* Semi-transparent white background */
+    padding: 20px !important;
+    max-width: 750px !important;
+    width: 100% !important;
+    border-radius: 8px !important;
+    backdrop-filter: blur(10px) !important; /* Added backdrop filter for blur effect */
+}
+
+/* Header styling */
+h1 {
+    text-align: center !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+    font-weight: 600 !important;
+    padding: 5px !important;
+    margin: 10px !important;
+}
+
+/* Input field container styling */
+.input {
+    margin-bottom: 20px !important;
+}
+
+.user{
+    font-weight: 600;
+    margin: 1px !important;
+    padding-bottom: 1px !important;
+}
+
+/* Input field styling */
+.ip, .ip1 {
+    width: 100% !important;
+    height: 45px !important;
+    border: 1px solid rgb(205, 195, 195) !important;
+    box-shadow: 0 0 0 0.5px black !important;
+    border-radius: 5px !important;
+    padding-left: 10px !important;
+    font-size: 17px !important;
+    border-color: white !important;
+    backdrop-filter: blur(10px) !important;  /* Optional: If you want input fields to also have a blur */
+}
+
+/* Row styling */
+.row {
+    display: flex !important;
+    gap: 20px !important; /* Adds space between columns */
+    flex-wrap: wrap !important;
+}
+
+/* Bootstrap Grid columns*/
+.col-md-6 {
+    flex: 1 !important; /*Ensures equal width to columns*/
+}
+
+/* Button container styling */
+.but{
+    display: flex !important;
+    justify-content: center !important;
+}
+
+/* Submit button styling */
+#sub {
+    margin-top: 10px !important;
+    padding: 10px 15px !important;
+    background-color: transparent !important;
+    color: white !important;
+    border: none !important;
+    border-radius: 5px !important;
+    cursor: pointer !important;
+    transition: 0.5s !important;
+}
+
+/* Hover effect for submit button */
+#sub:hover {
+    background-color: whitesmoke !important;
+    color: blueviolet !important;
+    transition: 0.8s !important;
+}
+
+
+#form {
+    background-color: transparent !important;
+}
